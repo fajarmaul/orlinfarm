@@ -71,7 +71,7 @@
                     @if (Auth::check())
                         <a href="{{ url('/home') }}">Home</a>
                     @else
-                        <a href="{{ url('/admin') }}">Admin</a>                    
+                        <a href="{{ url('/admin') }}">Admin</a>
                     @endif
                 </div>
             @endif
@@ -82,6 +82,7 @@
                 </div>
 
                 <div class="links">
+                    <a href="{{url('/admin')}}">Admin</a>
                     <a href="https://laravel.com/docs">Documentation</a>
                     <a href="https://laracasts.com">Laracasts</a>
                     <a href="https://laravel-news.com">News</a>
